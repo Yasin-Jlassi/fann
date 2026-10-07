@@ -1,0 +1,48 @@
+name: fann
+description: "A beautiful YouTube music player with offline support."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # YouTube audio extraction & search (pure Dart)
+  youtube_explode_dart: ^2.3.6
+
+  # Audio playback engine
+  just_audio: ^0.10.5
+  just_audio_windows_plus: ^0.1.0
+  audio_service: ^0.18.18
+  audio_session: ^0.1.25
+
+  # SQLite Database
+  drift: ^2.26.0
+  drift_flutter: ^0.2.4
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Networking & storage
+  dio: ^5.8.0+1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # UI & Media
+  cached_network_image: ^3.4.1
+  material_color_utilities: 0.13.0
+  permission_handler: ^11.3.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.26.0
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true
