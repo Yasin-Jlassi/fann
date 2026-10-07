@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:audio_service/audio_service.dart';
+import 'package:audio_service/audio_service.dart' hide PlaybackState;
 import 'package:just_audio/just_audio.dart';
 import '../youtube/youtube_service.dart';
 import 'audio_state.dart';
